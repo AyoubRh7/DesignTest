@@ -1,0 +1,170 @@
+/* html elements */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* headings */
+.big-heading
+{
+    line-height: 1.5;
+    font-size: 3.6rem;
+    padding: 100px 0 20px 0;
+}
+.secton-heading{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+/* sections */
+.white-section{
+    background-color:#fff;
+}
+.colored-section{
+    background-color: #ff4c64;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.feaut{
+    margin: 50px auto;
+    
+}
+.icons{
+    color: #ef8172;
+    font-size: 4rem;
+    margin: 10px auto;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+.iphone{
+    transform: rotate(25deg);
+    padding: 60px 20px 10px 50px;
+    width: 70%;
+    position: absolute;
+    right: 27%;
+
+    
+}
+
+.navbar{
+    padding:0 0 2rem;
+}
+.navbar-brand{
+    
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.nav-item{
+    margin: auto 22px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+    
+}
+.mparagraph{
+    color: #8f8f8f;
+    padding: 0 5%;
+}
+.mtitles{
+    font-size: 1.5rem;
+    margin: 15px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.middle{
+    
+}
+#title{
+    text-align: left;
+    font-family:'Ubuntu', sans-serif; 
+    font-size: 1.2rem;
+}
+
+/* Testimonials  */
+
+#testimonials{
+    background-color:#ef8172 ;
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px white;
+}
+/*press*/
+#press{
+    background-color:#ef8172 ;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 15px 20px 15px;
+}
+/* pricing  */
+
+#pricing{
+    padding: 100px;
+}
+.pricingcol{
+    padding: 3% 2%;
+}
+.price-text{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+/* cta  */
+#cta{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5% 15%;
+}
+.fin{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.6rem;
+}
+
+#footer{
+    font-family: 'Montserrat', sans-serif;
+
+    padding: 5% 15%;
+}
+.social{
+    margin: 30px 10px;
+}
+.copyright{
+    color: #a6a9b6;
+}
+
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
